@@ -59,7 +59,6 @@ public class IncomeTaxCalculator {
                 tax=6060 + (income-34000)*0.27;
             else if (income>=120000)
                 tax=29280+ (income-120000)*0.35;
-
         }
         else if(year==2017) {
             if (income<=0)
